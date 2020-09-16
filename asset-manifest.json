@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dminicelli-react/static/css/main.5f361e03.chunk.css",
+    "main.js": "/dminicelli-react/static/js/main.b8308872.chunk.js",
+    "main.js.map": "/dminicelli-react/static/js/main.b8308872.chunk.js.map",
+    "runtime-main.js": "/dminicelli-react/static/js/runtime-main.0977c37b.js",
+    "runtime-main.js.map": "/dminicelli-react/static/js/runtime-main.0977c37b.js.map",
+    "static/js/2.19bc78cb.chunk.js": "/dminicelli-react/static/js/2.19bc78cb.chunk.js",
+    "static/js/2.19bc78cb.chunk.js.map": "/dminicelli-react/static/js/2.19bc78cb.chunk.js.map",
+    "index.html": "/dminicelli-react/index.html",
+    "precache-manifest.2f4777748dfb5fae4a9868aacebc0c84.js": "/dminicelli-react/precache-manifest.2f4777748dfb5fae4a9868aacebc0c84.js",
+    "service-worker.js": "/dminicelli-react/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/dminicelli-react/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.19bc78cb.chunk.js.LICENSE.txt": "/dminicelli-react/static/js/2.19bc78cb.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/dminicelli-react/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0977c37b.js",
+    "static/js/2.19bc78cb.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.b8308872.chunk.js"
+  ]
+}
