@@ -1,0 +1,32 @@
+@import "./variables.scss";
+
+.skill-card {
+    width: 20*$cubit;
+    min-height: 16*$cubit;
+    border-radius: 50px;
+    border: 1px solid $color-almost-white;
+    overflow: auto;
+    
+    h2 {
+        margin: 0;
+        text-align: center;
+        display: block;
+        color: $color-main;
+        background-color: $color-almost-white;
+        padding: 1*$cubit 0;
+        border-radius: 50px;
+    }
+
+    li {
+        font-weight: 400;
+        list-style: none;
+        color: $color-almost-white;
+        &::first-letter {
+            color: $color-accent;
+        }
+    }
+
+    ul {
+        margin: 1*$cubit;
+    }
+}

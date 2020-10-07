@@ -115,6 +115,9 @@ dist
 # production
 /build
 
+# Graphic Resources
+/graphic
+
 # misc
 .DS_Store
 .env.local

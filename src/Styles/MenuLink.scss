@@ -1,0 +1,32 @@
+@import "./variables.scss";
+
+button {
+    border: 0px;
+    background-color: transparent;
+}
+
+.button-main, .button-accent {
+    transition: 0.2s;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 1*$cubit;
+    border-radius: 3*$cubit;
+    &:hover {
+        background-color: $color-almost-white;
+    }
+}
+
+.button-main {
+    color: $color-almost-white;
+    &:hover, &:active {
+        color: $color-main;
+    }
+}
+
+.button-accent {
+    color: $color-almost-white;
+    background-color: $color-accent;
+    &:hover, &:active {
+        color: $color-accent;
+    }
+}

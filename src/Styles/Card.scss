@@ -1,0 +1,78 @@
+@import "variables.scss";
+
+.single-work-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $color-almost-white;
+    padding: 2*$cubit 0;
+    width: 20*$cubit;
+    height: 16*$cubit;
+    border-radius: 0px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    p {
+        display: none;
+    }
+}
+
+
+
+.title {
+    font-size: 1.8rem;
+    color: $color-main;
+    margin: 0;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.work-image {
+    position: relative;
+    height: 60%;
+    width: 100%;
+    transition: 1s;
+}
+
+.tech-paragraph {
+    margin-top: 2*$cubit;
+    font-weight: 700;
+}
+
+.work-out-link {
+font-size: 0px;
+transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+
+.single-work-card:hover {   
+    background-color: $color-accent;                                    //on hover
+    width: 50*$cubit;
+    padding: 2*$cubit;
+        p {
+            display: inline-block;
+            color: $color-almost-white;
+        }
+        .title {
+            color: $color-almost-white;
+        }
+        
+            img {
+                display: none;
+                transition: 1s;
+            }
+            .work-out-link {
+                display: inline-block;
+                padding: 1*$cubit;
+                border-radius: 25px;
+                background-color: $color-almost-white;
+                color: $color-accent;
+                text-decoration: none;
+                font-size: 1rem;
+                align-self: flex-end;
+                transition-delay: 1s;
+            }
+        }
