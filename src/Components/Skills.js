@@ -44,13 +44,13 @@ const mappedSkills = groupedSkills.map(
 
 
 
-const Skills = ()=> {
+const Skills = ()=> { 
     return (
         <section id="skills-section">
             <h1>Skills</h1>
-            <div id="skills-group">
+            <main id="skills-group">
                 {mappedSkills}
-            </div>
+            </main>
         </section>
     )
 }

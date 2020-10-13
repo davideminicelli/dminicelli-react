@@ -30,3 +30,9 @@ button {
         color: $color-accent;
     }
 }
+
+@media only screen and (max-width: 999px) {
+    #dave-button {
+        display: none;
+    }
+}

@@ -2,6 +2,9 @@
 
 .main-menu-container {
     width: 100%;
+    // padding-top: 1rem;
+    position: fixed;
+    top: 1rem;
     ul{
         color: $color-main;
         width: 100%;
@@ -11,31 +14,44 @@
         justify-content: space-around;
     }
 }
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 999px) {
     .main-menu-container {
+        background-color: $color-accent;
         position: fixed;
-        top: -300px;
+        top: -355px;
         transition: 0.3s ease-in-out;
+        border-radius: 0 0 25px 25px;
         ul {
             flex-direction: column;
             height: auto;
-            padding: 2*$cubit 0;
+            // padding: 0.7*$cubit 0;
+        }
+        li, #mobile-menu-caller {
+            font-size: 1.2rem;
         }
     }
 }
 
 #mobile-menu-caller {
-    padding: 2*$cubit;
-    margin-top: 2*$cubit;
+    font-family: "poppins", serif;
+    padding: 1*$cubit;
+    margin: 3*$cubit 0 0;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
-@media only screen and (min-width: 831px) {
+@media only screen and (min-width: 1000px) {
     #mobile-menu-caller {
         display: none;
     }
 }
 
-.pulled-down {
-    background-color: $color-accent;
-    position: fixed;
-    top: 0;
+@media only screen and (max-width: 999px) {
+    .pulled-down {
+        // background-color: $color-accent;
+        position: fixed;
+        top: 0;
+        &:last-child {
+            align-self: flex-end;
+        }
+    }
 }

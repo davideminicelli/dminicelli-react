@@ -13,28 +13,24 @@ import "./Styles/main.scss";
 class App extends Component  {
 
     
-    // let menu = document.getElementById("main-menu-container");
-    // console.log(menu);
-    
-    pullMenu = () => {
+    pullMenu = (title) => {
         let menu = document.querySelector(".main-menu-container");
         menu.classList.toggle("pulled-down");
     }
 
     render() {
+
         return (
             <div id="body-div">
                 <Router>
                    <MainMenu pullScript={this.pullMenu} />
-                        <main /*style={{height: this.state.mainHeight}}*/>
-                            <Switch>
+                        <Switch>
                                 <Route path="/" exact component={Header} />
                                 <Route path="/portfolio" component={Portfolio} />
                                 <Route path="/contacts" component={Contacts} />
                                 <Route path="/about" component={About} />
                                 <Route path="/skills" component={Skills} />
-                            </Switch>
-                        </main>
+                        </Switch>
                 </Router>
             </div>
         )

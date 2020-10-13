@@ -52,9 +52,9 @@ const Portfolio = () => {
     return (
         <section id="portfolio-section">
             <h1>Portfolio</h1>     
-                 <div id="works-container">
+            <main id="works-container">
                 {allWorks}
-            </div>
+            </main>
         </section>
     )
 }

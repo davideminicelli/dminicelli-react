@@ -19,35 +19,65 @@ strong {
 }
 
 header {
+    padding: 13rem 0 0;
     width: 90%;
-    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     transition: 1s;
-    padding-top: 7*$cubit;
+    // padding-top: 7*$cubit;
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     li {
         font-size: 16px;
     }
-}
-@media only screen and (max-width: 1000px) {
-    header {
-        height: 85vh;
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+        // background-color: $color-main;
+        color: $color-almost-white;
+        display: inline-block;
+        margin: 0;
+        &::first-letter {
+            color: $color-accent;
+        }
+    }
+    @media only screen and (max-width: 1200px) {
+        h1 {
+            height: auto;
+            font-size: 4.6rem;
+        }
     }
 }
+
 @media only screen and (max-width: 830px) {
     header {
-        padding-top: 11*$cubit;
-        height: 65vh;
+        // padding-top: 11*$cubit;
+        // height: 65vh;
         justify-content: space-around;
     }
 }
-@media only screen and (max-width: 617px) {
+@media only screen and (max-width: 620px) {
     header{
-        height: 65vh;
-        justify-content: space-between;
+        padding-top: 10rem;
+        height: 100vh;
+        height: 100vh;
+        main {
+            height: 100%;
+            justify-content: space-around;
+        }
+        h1 {
+            font-size: 3.5rem;
+        }
+        p {
+            font-size: 2.5rem;
+        }
     }
+
 }
 
 #div-header-links {
@@ -71,7 +101,7 @@ header {
     text-align: center;
 }
 
-.header-button {
+.header-button { 
     font-size: 25px;
     padding: 1rem 1.6rem;
 }

@@ -9,7 +9,7 @@ const text= props.text;
 return (
 
 <Link onClick={props.pullScript} to={props.href}>
-    <li className={props.buttonStyle}>{text}</li>
+    <li id={props.ident} className={props.buttonStyle}>{text}</li>
 </Link>
 )
 }

@@ -5,7 +5,7 @@ const About = () => {
     return (
         <section id="about-section">
             <h1>About me</h1>
-            <div id="about-body">
+            <main id="about-body">
                 <h2>Background</h2>
                     <p>
                         I moved to the UK seven years ago from Italy, where I worked both in retail and as a photo editor.
@@ -17,6 +17,7 @@ const About = () => {
                         The client's needs are my north star whenever I’m working on a website.
                     </p>
             
+                <h2>Pipeline</h2>
                     <p>
                     I'm a self taught developer, and although I never lose sight of the fundamentals (<em>HTML</em>, <em>CSS</em>, <em>Javascript</em>)
                     I'm constantly studying to enrich my skillset: I'm currently studying <em>React</em>, and I'm using it in my latest projects.
@@ -29,7 +30,7 @@ const About = () => {
                 
                 <h2>Hobbies</h2>
                 <p>Photography, hiking, reading, board games and video games.</p>
-            </div>
+            </main>
         </section>
     )
 }

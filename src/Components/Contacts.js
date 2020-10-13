@@ -31,7 +31,9 @@ const Contacts = () => {
     return (
         <section id="contacts-section">
             <h1>Contacts</h1>
-                {contactsList}
+                <main id="contacts-main">
+                    {contactsList}
+                </main>
         </section>
     )
 }
