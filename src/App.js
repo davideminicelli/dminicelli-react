@@ -23,7 +23,7 @@ class App extends Component  {
         return  (
             <div id="body-div">
                 <Router>
-                   <MainMenu pullScript={this.pullMenu} />
+                   <MainMenu pullScript = {this.pullMenu} />
                         <Switch>
                                 <Route path="" exact component={Header} />
                                 <Route path="/portfolio" component={Portfolio} />
