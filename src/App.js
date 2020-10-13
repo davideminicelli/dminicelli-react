@@ -25,7 +25,7 @@ class App extends Component  {
                 <Router>
                    <MainMenu pullScript={this.pullMenu} />
                         <Switch>
-                                <Route path="/" exact component={Header} />
+                                <Route path="" exact component={Header} />
                                 <Route path="/portfolio" component={Portfolio} />
                                 <Route path="/contacts" component={Contacts} />
                                 <Route path="/about" component={About} />
