@@ -18,5 +18,7 @@
     #about-body {
         padding: 0;
         overflow: visible;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
     }
 }
