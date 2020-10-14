@@ -99,3 +99,13 @@ a {text-decoration: none;}
 li {
     list-style: none;
 }
+
+@media only screen and (min-height: 750px) and (min-width: 1000px) {
+    header {
+        padding-top: 20rem;
+    }
+
+    section {
+        padding-top: 12rem;
+    }
+}
