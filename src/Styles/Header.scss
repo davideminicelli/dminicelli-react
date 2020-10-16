@@ -64,7 +64,7 @@ header {
 @media only screen and (max-width: 620px) {
     header{
         justify-content: space-around;
-        height: 80vh;
+        height: 75vh;
         main {
             height: 100%;
             justify-content: space-around;
@@ -74,6 +74,9 @@ header {
         }
         #header-subtitle {
             font-size: 2rem;
+        }
+        .header-button {
+            font-size: 16px;
         }
     }
 
