@@ -25,7 +25,7 @@ const About = () => {
                     </p>
             
                     <p>
-                    In my years working in a graphic design studio I've also learned Photoshop, Illustrator, Cinema 4D. 
+                    In my years working in a graphic design studio I've also learned Photoshop, Illustrator, Cinema 4D, and I use them on an almost daily basis. 
                     </p>
                 
                 <h2>Hobbies</h2>
