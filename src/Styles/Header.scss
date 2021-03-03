@@ -20,7 +20,7 @@ strong {
 
 header {
     padding: 14rem 0 0;
-    height: 80vh;
+    // height: 80vh;
 
     width: 90%;
     display: flex;
@@ -48,21 +48,17 @@ header {
             color: $color-accent;
         }
     }
-    @media only screen and (max-width: 1200px) {
-        h1 {
-            // height: auto;
-        }
-    }
 }
 
 @media only screen and (max-width: 830px) {
     header {
         justify-content: space-around;
-        padding-top: 4rem;
+        padding-top: 10rem;
     }
 }
 @media only screen and (max-width: 620px) {
     header{
+        padding-top: 4rem;
         justify-content: space-around;
         height: 90vh;
         main {
