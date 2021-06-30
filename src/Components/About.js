@@ -17,7 +17,7 @@ const About = () => {
                         The client's needs are my north star whenever I’m working on a website.
                     </p>
             
-                <h2>Pipeline</h2>
+                {/* <h2>Pipeline</h2>
                     <p>
                     I'm a self taught developer, and although I never lose sight of the fundamentals (<em>HTML</em>, <em>CSS</em>, <em>Javascript</em>)
                     I'm constantly studying to enrich my skillset: I'm currently studying <em>React</em>, and I'm using it in my latest projects.
@@ -26,7 +26,7 @@ const About = () => {
             
                     <p>
                     In my years working in a graphic design studio I've also learned Photoshop, Illustrator, Cinema 4D, and I use them on an almost daily basis. 
-                    </p>
+                    </p> */}
                 
                 <h2>Hobbies</h2>
                 <p>Photography, hiking, reading, board games and video games.</p>
