@@ -7,8 +7,9 @@ const groupedSkills = [
     "skills": ["WAI-ARIA and accessibility best practices",
         "CSS3 (including Grid and Flexbox)",
         "Javascript ES6",
+        "React.js",
+        "Styled-Components",
         "Use of Restful APIs",
-        "React Basics",
         "Git"
         ]
     },
